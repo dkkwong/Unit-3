@@ -203,7 +203,7 @@ function setChart(csvData, colorScale){
 
     //create a scale to size bars proportionally to frame and for axis
     var yScale = d3.scaleLinear()
-        .range([463, 0])
+        .range([500, 0])
         .domain([0, 100]);
 
     //set bars for each province
